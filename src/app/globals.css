@@ -49,3 +49,8 @@
   --color-green-800: #027435;
   --color-green-900: #025929;
 }
+
+@utility bg-stripes {
+  background-image: var(--background-image-stripes);
+  background-size: var(--background-size-stripes);
+}
