@@ -13,6 +13,7 @@
     transparent 12.5%,
     transparent
   );
+  --background-size-stripes: 100% 8px;
   --blur-full: 194px;
 
   --color-gray-50: #eaeaea;
