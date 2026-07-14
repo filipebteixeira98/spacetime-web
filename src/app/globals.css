@@ -6,6 +6,8 @@
 }
 
 @theme {
+  --blur-full: 194px;
+
   --color-gray-50: #eaeaea;
   --color-gray-100: #bebebf;
   --color-gray-200: #9e9ea0;
