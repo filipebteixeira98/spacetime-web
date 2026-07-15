@@ -54,3 +54,8 @@
   background-image: var(--background-image-stripes);
   background-size: var(--background-size-stripes);
 }
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
