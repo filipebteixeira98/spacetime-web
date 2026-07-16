@@ -10,7 +10,7 @@ export default function Home() {
         <div className="blur-full absolute top-1/2 right-0 h-72 w-131.5 translate-x-1/2 -translate-y-1/2 rounded-full bg-purple-700 opacity-50" />
         <div className="bg-stripes absolute top-0 right-2 bottom-0 w-2" />
         <a
-          href="#application"
+          href={`https://github.com/login/oauth/authorize?client_id=${process.env.NEXT_PUBLIC_GITHUB_CLIENT_ID}`}
           className="flex items-center gap-3 text-left transition-colors hover:text-gray-50"
         >
           <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-400">
