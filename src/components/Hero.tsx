@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 import logoImage from '@/src/assets/nlw-spacetime-logo.svg'
 
@@ -15,12 +16,12 @@ export function Hero() {
           wish) with the world!
         </p>
       </div>
-      <a
-        href="#application"
+      <Link
+        href="/memories/new"
         className="font-heading inline-block rounded-full bg-green-500 px-5 py-3 text-sm leading-none text-black uppercase hover:bg-green-600"
       >
         SAVE MEMORY
-      </a>
+      </Link>
     </div>
   )
 }
