@@ -1,5 +1,7 @@
 @import 'tailwindcss';
 
+@plugin '@tailwindcss/forms';
+
 @theme inline {
   --font-sans: var(--font-roboto);
   --font-heading: var(--font-bai-jamjuree);
